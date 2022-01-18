@@ -1,0 +1,31 @@
+{
+    "Name": "Jorb.Threat",
+    "Description": "TF1 Triple Threat",
+    "Version": "1.0.0",
+    "RequiredOnClient": false,
+    "LoadPriority": 1,
+    "ConVars": [],
+    "Scripts": [
+        
+        {
+          "Path": "ccprecache.gnut",
+          "RunOn": "( CLIENT || SERVER ) && MP",
+          "ClientCallback": {
+            "After": "jorb_weapons3_precache"
+          },
+          "ServerCallback": {
+            "After": "jorb_weapons3_precache"
+          }
+        },
+
+        {
+          "Path": "weapons/mp_titanweapon_triplethreat.nut",
+          "RunOn": "( CLIENT || SERVER ) && MP"
+
+        
+        }
+    ],
+    "Localisation": [
+        
+    ]
+}

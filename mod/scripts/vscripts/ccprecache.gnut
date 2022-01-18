@@ -1,0 +1,11 @@
+untyped
+global function jorb_weapons3_precache
+
+void function jorb_weapons3_precache()
+{
+    PrecacheWeapon( "mp_titanweapon_triplethreat" )
+    printt("Triple Threat")
+    
+    
+
+}
